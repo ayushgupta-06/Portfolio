@@ -1,0 +1,8 @@
+@media (max-width:768px) {
+    .slider{
+        display: flex;
+    }
+    header{
+        display: none;
+    }
+}
