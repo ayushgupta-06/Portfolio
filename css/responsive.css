@@ -1,8 +1,33 @@
 @media (max-width:768px) {
-    .slider{
+    header .hamburger{
         display: flex;
     }
     header{
-        display: none;
+        display: inline-block;
+        justify-content: left;
+        width: 50%;
+        /* background-color:rgba(0, 0, 0, 0.2) ; */
+        z-index: 100;
     }
+    header .navbar{
+        display: none;
+        flex-direction: column;
+        padding: 0;
+        width: 100%;
+    }
+    header .navbar a:hover {
+        color: white;
+      }
+    header .navbar a::after{
+        position: static;
+    }
+}
+@media (max-width:470px){
+    *{
+        font-size: 14px;
+    }
+    .hamburger.active{
+        margin-left: 60%;
+        justify-content: center;
+       }
 }
