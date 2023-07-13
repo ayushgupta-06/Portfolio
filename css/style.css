@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
-@font-face{
-  font-family: Neue-Machina; src: url('resources/NeueMachina-Regular.otf');
-  }
+@font-face {
+  font-family: Neue-Machina;
+  src: url("resources/NeueMachina-Regular.otf");
+}
 * {
   font-family: "Poppins", sans-serif;
   margin: 0;
@@ -28,49 +29,49 @@ header {
   justify-content: center;
   align-items: center;
 }
-.container{
+.container {
   padding: 1em;
   display: flex;
   width: 50%;
   justify-content: flex-start;
 }
-.container.container-active{
+.container.container-active {
   background-color: rgba(0, 0, 0, 0.8);
   justify-content: flex-end;
 }
-  .hamburger{
-  padding: .8em;
+.hamburger {
+  padding: 0.8em;
   width: 3.5em;
-  height:3em;
+  height: 3em;
   display: none;
   flex-direction: column;
   justify-content: space-between;
   z-index: 2;
 }
-  .hamburger .lines{
+.hamburger .lines {
   background-color: white;
   height: 0.2em;
   width: 100%;
   border-radius: 0.5em;
 }
- .hamburger .line-2{
+.hamburger .line-2 {
   width: 50%;
 }
-.hamburger.active{
- justify-content: center;
+.hamburger.active {
+  justify-content: center;
 }
-.hamburger.active .line-2{
+.hamburger.active .line-2 {
   display: none;
 }
-.hamburger.active .line-1{
+.hamburger.active .line-1 {
   transform: rotate(130deg);
   background-color: var(--blue);
 }
-.hamburger.active .line-3{
+.hamburger.active .line-3 {
   transform: rotate(-130deg);
   background-color: var(--blue);
 }
-header.header-active{
+header.header-active {
   height: 100vh;
   left: 0;
   background-color: rgba(0, 0, 0, 0.8);
@@ -106,12 +107,12 @@ header .navbar a:hover::after {
   transform: scaleX(1);
   transform-origin: left;
 }
-#home{
+#home {
   display: flex;
   width: 100%;
   height: 30em;
 }
-#home .home-txt{
+#home .home-txt {
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -119,28 +120,27 @@ header .navbar a:hover::after {
   align-items: left;
   padding: 5em;
 }
-#home .home-txt .large{
+#home .home-txt .large {
   font-size: 5em;
   font-weight: 500;
   color: white;
-  font-family:  Neue-Machina;
+  font-family: Neue-Machina;
 }
-#home .home-txt .small{
+#home .home-txt .small {
   font-size: 1em;
   color: white;
   letter-spacing: 0.1em;
-  font-family:  Neue-Machina;
-  padding-top: 1.5em ;
+  font-family: Neue-Machina;
+  padding-top: 1.5em;
   padding-bottom: 2em;
 }
-#home .home-txt  span{
+#home .home-txt span {
   color: var(--blue);
   font-size: 5em;
   font-weight: 500;
-  font-family:  Neue-Machina;
-  
+  font-family: Neue-Machina;
 }
-#home .home-txt a{
+#home .home-txt a {
   letter-spacing: 0.1em;
   background-color: transparent;
   width: 16em;
@@ -155,17 +155,54 @@ header .navbar a:hover::after {
   justify-content: center;
   align-items: center;
 }
-#home .home-txt a:hover{
-color: #98e8cd;
-box-shadow: 0px 0px 1em var(--blue);
+#home .home-txt a:hover {
+  color: #98e8cd;
+  box-shadow: 0px 0px 1em var(--blue);
 }
-#home .home-img{
+#home .home-img {
   width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-#home .home-img .animation{
+#home .home-img .animation {
   width: 600px;
-   height: 600px;
+  height: 600px;
+}
+#about {
+  margin-top: 10%;
+  width: 100%;
+  height: 30em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#about .about-img img {
+  width: 15em;
+  height: 15em;
+  transform: rotate(90deg);
+}
+#about .about-txt {
+  width: 40%;
+  height: 100%;
+  text-align: center;
+  font-size: 0.8em;
+  padding: 1em;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+#about .about-txt .about-me {
+  color: white;
+}
+#about .about-txt .one-liner {
+  font-family: Neue-Machina;
+  color: white;
+  font-size: 1.5em;
+}
+#about .about-txt .one-liner span {
+  font-family: Neue-Machina;
+  font-size: 1em;
+  color: var(--blue);
 }
