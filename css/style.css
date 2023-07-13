@@ -1,8 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
-@font-face {
-  font-family: Neue-Machina;
-  src: url("resources/NeueMachina-Regular.otf");
-}
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600&display=swap');
 * {
   font-family: "Poppins", sans-serif;
   margin: 0;
@@ -122,23 +119,26 @@ header .navbar a:hover::after {
 }
 #home .home-txt .large {
   font-size: 5em;
-  font-weight: 500;
+  font-weight: 600;
   color: white;
-  font-family: Neue-Machina;
+  /* font-family: Neue-Machina; */
+  font-family: 'Libre Franklin', sans-serif;
 }
 #home .home-txt .small {
   font-size: 1em;
   color: white;
   letter-spacing: 0.1em;
-  font-family: Neue-Machina;
+  /* font-family: Neue-Machina; */
+  font-family: 'Libre Franklin', sans-serif;
   padding-top: 1.5em;
   padding-bottom: 2em;
 }
 #home .home-txt span {
   color: var(--blue);
   font-size: 5em;
-  font-weight: 500;
-  font-family: Neue-Machina;
+  font-weight: 600;
+  /* font-family: Neue-Machina; */
+  font-family: 'Libre Franklin', sans-serif;
 }
 #home .home-txt a {
   letter-spacing: 0.1em;
@@ -197,12 +197,14 @@ header .navbar a:hover::after {
   color: white;
 }
 #about .about-txt .one-liner {
-  font-family: Neue-Machina;
+  font-family: 'Libre Franklin', sans-serif;
   color: white;
   font-size: 1.5em;
+  font-weight: 500;
 }
 #about .about-txt .one-liner span {
-  font-family: Neue-Machina;
+  font-family: 'Libre Franklin', sans-serif;
   font-size: 1em;
   color: var(--blue);
+  font-weight: 600;
 }

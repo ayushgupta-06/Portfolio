@@ -114,6 +114,9 @@
     width: 300px;
     height: 300px;
   }
+  #about {
+    margin-top: 20%;
+  }
   #about .about-txt {
     width: 80%;
   }
