@@ -118,7 +118,7 @@ header .navbar a:hover::after {
   padding: 5em;
 }
 #home .home-txt .large {
-  font-size: 5em;
+  font-size: 4.5em;
   font-weight: 600;
   color: white;
   /* font-family: Neue-Machina; */
@@ -135,7 +135,7 @@ header .navbar a:hover::after {
 }
 #home .home-txt span {
   color: var(--blue);
-  font-size: 5em;
+  font-size: 4.5em;
   font-weight: 600;
   /* font-family: Neue-Machina; */
   font-family: 'Libre Franklin', sans-serif;
@@ -207,4 +207,79 @@ header .navbar a:hover::after {
   font-size: 1em;
   color: var(--blue);
   font-weight: 600;
+}
+#tech-stack{
+  width: 100%;
+  height: 40em;
+  /* border: 2px solid red; */
+  margin-top: 10%;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#tech-stack .heading{
+  width: 100%;
+  /* border: 2px solid red; */
+}
+#tech-stack .heading p{
+  text-align: center;
+  font-size: 4em;
+   color: white;
+   font-family: 'Libre Franklin', sans-serif;
+}
+#tech-stack .skills-container{
+  width: 100%;
+  height: 80%;
+  /* border: 1px solid green; */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+#tech-stack .skills-container .layers{
+display: flex;
+justify-content: space-around;
+align-items: center;
+height: 50%;
+flex-wrap: wrap;
+}
+#tech-stack .skills-container .layers .skills{
+  text-align: center;
+}
+#tech-stack .skills-container .layers i{
+  color: black;
+  padding: 1em;
+  font-size: 2em;
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  background-color: #0e1d3057;
+}
+#tech-stack .skills-container .layers .skills .fa-html5{
+ color: #f06529;
+ box-shadow: 0 0 10px #f06529;
+}
+#tech-stack .skills-container .layers .skills .fa-css3-alt{
+  color: #264de4;
+  box-shadow: 0 0 10px #264de4;
+ }
+ #tech-stack .skills-container .layers .skills .fa-js{
+  color: #f0db4f;
+  box-shadow: 0 0 10px #f0db4f;
+ }
+ #tech-stack .skills-container .layers .skills .fa-bootstrap{
+  color: #8511f3;
+  box-shadow: 0 0 10px #8511f3;
+ }
+ #tech-stack .skills-container .layers .skills .fa-github{
+  color:  white;
+  box-shadow: 0 0 10px white;
+ }
+ #tech-stack .skills-container .layers .skills .fa-node-js{
+  color: #3d7530;
+  box-shadow: 0 0 10px #3d7530;
+ }
+#tech-stack .skills-container .layers p{
+  color: white;
+  padding: 0.5em;
 }

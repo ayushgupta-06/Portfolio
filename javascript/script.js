@@ -4,6 +4,9 @@ const hamburger = document.querySelector(".hamburger")
 const header = document.querySelector("header")
 const container = document.querySelector(".container")
 const navbtn = document.querySelectorAll(".navbtn")
+const home = document.querySelector("#home")
+const about = document.querySelector("#about")
+
 hamburgerLines.forEach(element => {
     element.addEventListener('click',hamburgerLinesClick)
 });
@@ -13,9 +16,11 @@ function hamburgerLinesClick() {
     container.classList.toggle('container-active')
 }
 navbtn.forEach(element => {
-    element.addEventListener('click',navbtnClick)
+    element.addEventListener('click',hamburgerClose)
 });
-function navbtnClick(){
+home.addEventListener('click',hamburgerClose)
+about.addEventListener('click',hamburgerClose)
+function hamburgerClose(){
     hamburger.classList.remove('active')
     header.classList.remove('header-active')
     container.classList.remove('container-active')

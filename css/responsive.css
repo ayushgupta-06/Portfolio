@@ -9,6 +9,12 @@
       #about .about-txt {
         width: 30%;
       }
+      #about .about-txt .large{
+        font-size: 5em;
+      }
+      #about .about-txt .large{
+        font-size: 5em;
+      }
       #about .about-img img {
         width: 17em;
         height: 17em;
@@ -93,6 +99,9 @@
   #about .about-txt {
     width: 60%;
   }
+  #tech-stack .heading p{
+ font-size: 3em;
+  }
 }
 
 @media (max-width: 627px) {
@@ -117,6 +126,9 @@
   #about {
     margin-top: 20%;
   }
+  #tech-stack{
+    margin-top: 20%;
+  }
   #about .about-txt {
     width: 80%;
   }
@@ -127,8 +139,25 @@
     font-size: 1em;
   }
 }
+@media (max-width: 425px ) {
+  #tech-stack .skills-container .layers{
+    justify-content: space-between;
+  }
+  #tech-stack{
+    margin-top: 40%;
+  }
+  
+}
 @media (max-width: 375px) {
   #about .about-txt {
     width: 100%;
+  }
+  #tech-stack{
+    height: 35em;
+  }
+  #tech-stack .skills-container .layers i{
+    font-size: 1.5em;
+    width: 3em;
+    height: 3em;
   }
 }
